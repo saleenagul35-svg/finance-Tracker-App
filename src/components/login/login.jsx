@@ -5,11 +5,11 @@ const Login = () => {
     let navigate = useNavigate();
     const home = (event) => {
         event.preventDefault();
-        if(handleForm.Email===userDetails.Email && handleForm.Password===userDetails.Password){
+        // if(handleForm.Email===userDetails.Email && handleForm.Password===userDetails.Password){
                  navigate("/dashboard")
-        }else{
-            alert("User Email or Password is wrong");
-        }
+        // }else{
+            // alert("User Email or Password is wrong");
+        // }
        
        
 
