@@ -1,9 +1,9 @@
 import React, { useContext, useEffect } from "react";
 import Navbar from '../../components/navbar/navbar'
-import Transactions from "../transaction/transaction";
+
 import TransactionTable from "../transactiontable/transactiontable";
 import {motion, AnimatePresence} from "framer-motion"
-import { CiDark } from "react-icons/ci";
+
 import { MdDarkMode } from "react-icons/md";
 import { ThemeContext } from "../../ThemeContext/ThemeContext";
 
