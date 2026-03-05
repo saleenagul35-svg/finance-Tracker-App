@@ -119,7 +119,7 @@ console.log(Theme);
             <h2 className="text-xl font-bold mb-2">{totalExpense} used</h2>
 
             {/* Progress Bar */}
-            <div className="w-180 bg-gray-200 h-3 rounded">
+            <div className="w-full bg-gray-200 h-3 rounded">
               <div className={`${getStatusColor} h-3 rounded `} style={{ width: `${ progressBar}%` }}></div>
             </div>
           </motion.div>
@@ -129,7 +129,7 @@ console.log(Theme);
             <p className="text-gray-500 text-sm mb-4">Saving Plans</p>
             <h2 className="text-xl  font-bold mb-2">{saving} pkr</h2>
             {/* Progress Bar */}
-            <div className="w-83 bg-gray-200 h-3 rounded">
+            <div className="w-full bg-gray-200 h-3 rounded">
               <div className="bg-blue-500 h-3 rounded " style={{ width: `${(totalExpense>=totalIncome)? 0:SavingProgressBar }%` }} ></div>
             </div>
 
