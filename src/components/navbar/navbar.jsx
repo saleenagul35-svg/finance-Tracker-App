@@ -93,7 +93,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="md:hidden border-t px-6 py-4 flex flex-col gap-4 font-medium bg-white">
+        <div className="md:hidden border-t px-6 py-4 flex flex-col gap-4 font-medium navbar">
 
           <button
             onClick={goDashboard}
